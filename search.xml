@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/07/27/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>盒子模型/个人笔记</title>
     <url>/2020/07/27/boxmodel/</url>
-    <content><![CDATA[<p>看清网页布局的本质：</p>
+    <content><![CDATA[<p>简要总结下盒模型的相关知识。<br>首先要看清网页布局的本质：</p>
 <ul>
 <li>CSS在处理网页时，把每个元素包含在一个不可见的盒子中；</li>
 <li>只需设置好每个盒子的大小，然后摆放盒子的位置；最后把网页元素比如文字图片链接等等，放入盒子里面。</li>
@@ -177,7 +159,7 @@
 <li>内容和边框 有了距离，添加了内边距。</li>
 <li>撑大盒子。<strong>解决方法：</strong>通过给设置了宽高的盒子，减去相应的内边距的值，维持盒子原有的大小</li>
 </ol>
-<p><img data-src="https://i.loli.net/2020/07/27/MBHYwrJLCRIanZh.jpg" alt=""><strong>重点：</strong>padding不影响盒子大小情况  </p>
+<p><strong>重点：</strong>padding不影响盒子大小情况  </p>
 <blockquote>
 <p><strong>如果没有给一个盒子指定宽度， 此时，如果给这个盒子指定padding， 则不会撑开盒子。</strong></p>
 </blockquote>
@@ -325,8 +307,8 @@
       <tags>
         <tag>CSS</tag>
         <tag>前端</tag>
-        <tag>盒模型</tag>
         <tag>笔记</tag>
+        <tag>个人总结</tag>
       </tags>
   </entry>
 </search>
